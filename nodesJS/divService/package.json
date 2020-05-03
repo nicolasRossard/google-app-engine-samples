@@ -10,6 +10,10 @@
   "engines":{
     "node": ">=8.0.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nicolasRossard/google-app-engine-samples/tree/master/nodesJS/divService"
+  },
   "author": "Nicolas Rossard",
   "license": "ISC",
   "dependencies": {
