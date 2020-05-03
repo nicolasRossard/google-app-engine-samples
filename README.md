@@ -51,11 +51,17 @@ $ gcloud app create --project=[YOUR_PROJECT_ID]
 
 ### Activate bill and Cloud Build
 go to https://console.cloud.google.com
+
 Select your project
-Click on bill and make procedure
+
+Click on bill and follow the procedure
+
 Go back to the main page of your project
+
 Select API and services
+
 Research Cloud Build
+
 Click on activate
 
 ### Deploy samples 
