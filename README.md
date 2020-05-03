@@ -64,15 +64,15 @@ Research Cloud Build
 
 Click on activate
 
-### Deploy samples 
-Now you can go in the folders and deploy all samples
-
-If you need to deploy Python3 App Engine install components for Python:
-$ gcloud components install app-engine-python
+## Deploy samples 
+Each folders have a README to deploy applications
 
 ### Calculator
-Sample of a calculator which communicate (http request) with nodesJS
-You need to deploy all nodeJS before
+Sample of a calculator which communicate (http requests) with nodes. You need to deploy all nodes before
+
+install App Engine or python3:
+
+$ gcloud components install app-engine-python
 
 ### Helloword
 sample example helloworld with nodesJS 
@@ -80,9 +80,14 @@ sample example helloworld with nodesJS
 ### env
 Environment created for python
 
+### NodeJS
+Contains all nodes for calculator (Sum, Sub, Mul and Div)
+
 ### test.py
-Test my services: Sum Sub Mul and Div
+Test nodes in Python: Sum Sub Mul and Div
 To test yours change URLs at the begining of test.py
 then:
 
 $ python test.py
+
+Or you can read README and use curl to test it
