@@ -1,0 +1,18 @@
+{
+  "name": "mul-service",
+  "version": "1.0.0",
+  "description": "multiplication-service",
+  "main": "MulService.js",
+  "scripts": {
+    "start": "node MulService.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines":{
+    "node": ">=8.0.0"
+  },
+  "author": "Nicolas Rossard",
+  "license": "ISC",
+  "dependencies": {
+    "http": "0.0.1-security"
+  }
+}
