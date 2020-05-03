@@ -90,4 +90,4 @@ then:
 
 $ python test.py
 
-Or you can read README and use curl to test it
+You can test each node with curl (Look README of each nodes to see the command line)
