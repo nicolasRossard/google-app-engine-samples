@@ -3,22 +3,34 @@
 ## LINUX ENVIRONMENT
 
 ### Components to install in your Linux
+
 python >=3.0
+
 node >= 8.10.0
+
 curl >= 7.58.0
+
 npm >= 3.5.2
 
 ### Gcloud versions:
+
 Google Cloud SDK 290.0.1
+
 app-engine-python 1.9.90
+
 bq 2.0.56
+
 cloud-datastore-emulator 2.1.0
+
 core 2020.04.24
+
 gsutil 4.49
 
 
 ### See documentation GOOGLE:
 https://cloud.google.com/appengine/docs/standard/python3/quickstart
+
+## Explanations
 
 First, you have to create a google account
 
@@ -66,4 +78,5 @@ Environment created for python
 Test my services: Sum Sub Mul and Div
 To test yours change URLs at the begining of test.py
 then:
+
 $ python test.py
