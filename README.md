@@ -29,13 +29,13 @@ https://cloud.google.com/sdk/docs
 $ gcloud components update
 
 ### Create a project
-gcloud projects create [YOUR_PROJECT_ID] --set-as-default
+$ gcloud projects create [YOUR_PROJECT_ID] --set-as-default
 
 ### Check if the project was created
-gcloud projects describe [YOUR_PROJECT_ID]
+$ gcloud projects describe [YOUR_PROJECT_ID]
 
 ### Create App Engine
-gcloud app create --project=[YOUR_PROJECT_ID]
+$ gcloud app create --project=[YOUR_PROJECT_ID]
 
 ### Activate bill and Cloud Build
 go to https://console.cloud.google.com
@@ -65,5 +65,5 @@ Environment created for python
 ### test.py
 Test my services: Sum Sub Mul and Div
 To test yours change URLs at the begining of test.py
-then 
+then:
 $ python test.py
